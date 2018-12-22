@@ -31,16 +31,16 @@ cropZone <- function(
 #=============================================================================#
 # END OF FUNCTION
 #=============================================================================#
-dirpath <- 'D:/Clorofila/'
+dirpath <- 'G:/Clorofila/'
 library(maps)
 library(mapdata)
 
 # #-----PERU DOMAIN-----#
-# pre_name <- 'Peru'
-# xmn <- -90
-# xmx <- -70
-# ymn <- -20
-# ymx <- 0
+pre_name <- 'Peru'
+xmn <- -90
+xmx <- -70
+ymn <- -20
+ymx <- 0
 
 # #-----PERU DOMAIN-----#
 # pre_name <- 'Peru4'
@@ -64,11 +64,11 @@ library(mapdata)
 # ymx <- -11.9
 
 # #-----CHIMBOTE DOMAIN-----#
-pre_name <- 'Chimbote'
-xmn <- -78.8
-xmx <- -78.4
-ymn <- -9.4
-ymx <- -8.9
+# pre_name <- 'Chimbote'
+# xmn <- -78.8
+# xmx <- -78.4
+# ymn <- -9.4
+# ymx <- -8.9
 
 # DO NOT CHANGE ANYTHIG AFTER HERE #
 new_folder <- paste0(dirpath, 'crop_', pre_name)
