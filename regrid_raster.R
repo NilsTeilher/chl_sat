@@ -9,7 +9,7 @@ for (year in 2002:2018) {
 
   for (i in 1:length(rasfiles)) {
     ras=raster(paste0(newpath,rasfiles[i]))
-    ras2=aggregate(ras, fact= 4 ,fun=mean,na.rm=T)
+    ras2=aggregate(ras, fact= 3 ,fun=mean,na.rm=T)
     newname=paste0(dirpath,"regrid/",year,"/",rasfiles[i])
     writeRaster(x = ras2,filename = newname, overwrite = TRUE)
     print(newname)
